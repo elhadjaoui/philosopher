@@ -22,7 +22,7 @@ SRCS =			$(addprefix $(DIR_SRCS), $(SRC))
 all:			$(NAME)
 
 $(NAME) :
-				@$(CC) $(FLAGS) -I $(DIR_HEADERS) $(SRCS)   -o $(NAME)
+				@$(CC) $(FLAGS) -I $(DIR_HEADERS) $(SRCS) ${SANITIZE}   -o $(NAME)
 				
 
 norme:
