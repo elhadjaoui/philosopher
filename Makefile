@@ -13,7 +13,7 @@ DIR_HEADERS =	./header/
 DIR_SRCS =		./src/
 
 	
-SRC =			 ft_atoi.c ft_strlen.c ft_itoa.c ft_strdup.c ft_strjoin.c philosopher.c utils.c
+SRC =			 ft_atoi.c ft_strlen.c ft_itoa.c ft_strdup.c ft_strjoin.c philosopher.c utils.c philo_activities.c
 			
 SRCS =			$(addprefix $(DIR_SRCS), $(SRC)) 
 
