@@ -6,7 +6,7 @@
 /*   By: mel-hadj <mel-hadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/11 18:20:41 by mel-hadj          #+#    #+#             */
-/*   Updated: 2021/10/17 21:29:14 by mel-hadj         ###   ########.fr       */
+/*   Updated: 2021/10/19 18:54:36 by mel-hadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,8 @@ void *myThreadFun(void *ph)
 		take_fork1(philo);
 		take_fork2(philo);
 		eat(philo);
-		think(philo);
 		to_bed(philo);
+		think(philo);
 	}
 	printf("dfad\n");
 	return NULL;
@@ -36,13 +36,13 @@ int initialize_philo(t_data *data, t_philo *philo)
 	while (i < data->num_philo)
 	{
 		philo[i].id = i + 1;
-		philo[i].last_ate = current_time(data->start);
+		// philo[i].last_ate = current_time(data->start);
 		philo[i].last_slept = 0;
 		philo[i].eating = 0;
 		philo[i].eat_count = 0;
 		philo[i].num_philo = data->num_philo;
 		philo[i].start = data->start;
-		if (pthread_mutex_init(&philo[i].fork, NULL) != 0)
+		if (pthread_mutex_init(&philo[i].fork, NULL) != 0 || pthread_mutex_init(&philo[i].print, NULL) != 0)
 		{
 			printf("\n mutex init has failed\n");
 			return (0);
@@ -64,6 +64,7 @@ int launch_threads(pthread_t *thread, t_philo *philo, t_data *data)
 		i++;
 		usleep(100); 
 	}
+
 	return(1);
 }
 
@@ -79,6 +80,7 @@ int simulation(t_data *data)
 	initialize_philo(data, philo);
 	if (!launch_threads(philo_thread, philo, data))
 		return (0);
+	// monitor()
 	return (1);
 }
 
@@ -91,6 +93,7 @@ t_data *initialize_data(char **av)
 	data->time_to_die = ft_atoi(av[2]);
 	data->time_to_eat = ft_atoi(av[3]);
 	data->time_to_sleep = ft_atoi(av[4]);
+	gettimeofday(&(data->start), NULL);
 	return (data);
 }
 

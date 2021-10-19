@@ -27,6 +27,7 @@ typedef struct s_philo
 	int				eat_count;
 	int				num_philo;
 	pthread_mutex_t fork;
+	pthread_mutex_t print;
 	struct timeval	start;
 }					t_philo;
 

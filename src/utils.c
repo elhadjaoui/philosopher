@@ -6,7 +6,7 @@
 /*   By: mel-hadj <mel-hadj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/11 20:15:52 by mel-hadj          #+#    #+#             */
-/*   Updated: 2021/10/17 16:31:06 by mel-hadj         ###   ########.fr       */
+/*   Updated: 2021/10/19 18:40:24 by mel-hadj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,5 +45,5 @@ int	current_time(struct timeval start)
 }
 void	busy()
 {
-	usleep(5000);
+	usleep(100000);
 }

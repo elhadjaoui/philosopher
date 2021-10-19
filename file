@@ -1,0 +1,140 @@
+0 1 has taken a fork1 add= 0x617000000b18
+0 1 has taken a fork2 add = 0x617000000bc0
+0 1 is eating
+1 3 has taken a fork1 add= 0x617000000c68
+1 3 has taken a fork2 add = 0x617000000e60
+1 3 is eating
+1 4 has taken a fork1 add= 0x617000000d10
+101 1 is sleeping
+101 3 is sleeping
+101 2 has taken a fork1 add= 0x617000000bc0
+202 3 is thinking
+202 3 has taken a fork1 add= 0x617000000c68
+202 3 has taken a fork2 add = 0x617000000e60
+202 3 is eating
+202 1 is thinking
+202 1 has taken a fork1 add= 0x617000000b18
+307 3 is sleeping
+409 3 is thinking
+409 3 has taken a fork1 add= 0x617000000c68
+409 3 has taken a fork2 add = 0x617000000e60
+409 3 is eating
+509 3 is sleeping
+614 3 is thinking
+614 3 has taken a fork1 add= 0x617000000c68
+614 3 has taken a fork2 add = 0x617000000e60
+614 3 is eating
+719 3 is sleeping
+819 3 is thinking
+819 3 has taken a fork1 add= 0x617000000c68
+819 3 has taken a fork2 add = 0x617000000e60
+819 3 is eating
+924 3 is sleeping
+1029 3 is thinking
+1029 3 has taken a fork1 add= 0x617000000c68
+1029 3 has taken a fork2 add = 0x617000000e60
+1029 3 is eating
+1129 3 is sleeping
+1234 3 is thinking
+1234 3 has taken a fork1 add= 0x617000000c68
+1234 3 has taken a fork2 add = 0x617000000e60
+1234 3 is eating
+1339 3 is sleeping
+1440 3 is thinking
+1440 3 has taken a fork1 add= 0x617000000c68
+1440 3 has taken a fork2 add = 0x617000000e60
+1440 3 is eating
+1543 3 is sleeping
+1643 3 is thinking
+1643 3 has taken a fork1 add= 0x617000000c68
+1643 3 has taken a fork2 add = 0x617000000e60
+1643 3 is eating
+1743 3 is sleeping
+1843 3 is thinking
+1843 3 has taken a fork1 add= 0x617000000c68
+1843 3 has taken a fork2 add = 0x617000000e60
+1843 3 is eating
+1945 3 is sleeping
+2047 3 is thinking
+2047 3 has taken a fork1 add= 0x617000000c68
+2047 3 has taken a fork2 add = 0x617000000e60
+2047 3 is eating
+2152 3 is sleeping
+2257 3 is thinking
+2257 3 has taken a fork1 add= 0x617000000c68
+2257 3 has taken a fork2 add = 0x617000000e60
+2257 3 is eating
+2358 3 is sleeping
+2460 3 is thinking
+2460 3 has taken a fork1 add= 0x617000000c68
+2460 3 has taken a fork2 add = 0x617000000e60
+2460 3 is eating
+2560 3 is sleeping
+2660 3 is thinking
+2660 3 has taken a fork1 add= 0x617000000c68
+2660 3 has taken a fork2 add = 0x617000000e60
+2660 3 is eating
+2760 3 is sleeping
+2865 3 is thinking
+2865 3 has taken a fork1 add= 0x617000000c68
+2865 3 has taken a fork2 add = 0x617000000e60
+2865 3 is eating
+2966 3 is sleeping
+3067 3 is thinking
+3067 3 has taken a fork1 add= 0x617000000c68
+3067 3 has taken a fork2 add = 0x617000000e60
+3067 3 is eating
+3169 3 is sleeping
+3274 3 is thinking
+3274 3 has taken a fork1 add= 0x617000000c68
+3274 3 has taken a fork2 add = 0x617000000e60
+3274 3 is eating
+3375 3 is sleeping
+3480 3 is thinking
+3480 3 has taken a fork1 add= 0x617000000c68
+3480 3 has taken a fork2 add = 0x617000000e60
+3480 3 is eating
+3583 3 is sleeping
+3688 3 is thinking
+3688 3 has taken a fork1 add= 0x617000000c68
+3688 3 has taken a fork2 add = 0x617000000e60
+3688 3 is eating
+3792 3 is sleeping
+3892 3 is thinking
+3892 3 has taken a fork1 add= 0x617000000c68
+3892 3 has taken a fork2 add = 0x617000000e60
+3892 3 is eating
+3997 3 is sleeping
+4101 3 is thinking
+4101 3 has taken a fork1 add= 0x617000000c68
+4101 3 has taken a fork2 add = 0x617000000e60
+4101 3 is eating
+4206 3 is sleeping
+4308 3 is thinking
+4308 3 has taken a fork1 add= 0x617000000c68
+4308 3 has taken a fork2 add = 0x617000000e60
+4308 3 is eating
+4414 3 is sleeping
+4519 3 is thinking
+4519 3 has taken a fork1 add= 0x617000000c68
+4519 3 has taken a fork2 add = 0x617000000e60
+4519 3 is eating
+4624 3 is sleeping
+4727 3 is thinking
+4727 3 has taken a fork1 add= 0x617000000c68
+4727 3 has taken a fork2 add = 0x617000000e60
+4727 3 is eating
+4827 3 is sleeping
+4927 3 is thinking
+4927 3 has taken a fork1 add= 0x617000000c68
+4927 3 has taken a fork2 add = 0x617000000e60
+4927 3 is eating
+5027 3 is sleeping
+5127 3 is thinking
+5127 3 has taken a fork1 add= 0x617000000c68
+5127 3 has taken a fork2 add = 0x617000000e60
+5127 3 is eating
+5227 3 is sleeping
+5332 3 is thinking
+5332 3 has taken a fork1 add= 0x617000000c68
+5332 3 has taken a f
