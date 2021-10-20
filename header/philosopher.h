@@ -15,6 +15,7 @@ typedef struct s_data
 	int				time_to_eat;
 	int				time_to_sleep;
 	int				eat_count;
+	pthread_mutex_t *forks;
 	struct timeval	start;
 }					t_data;
 
@@ -26,7 +27,7 @@ typedef struct s_philo
 	int				eating;
 	int				eat_count;
 	int				num_philo;
-	pthread_mutex_t fork;
+	pthread_mutex_t *fork;
 	pthread_mutex_t print;
 	struct timeval	start;
 }					t_philo;
